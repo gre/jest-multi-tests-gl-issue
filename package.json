@@ -1,0 +1,16 @@
+{
+  "name": "jest-multi-tests-gl-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gl": "^4.0.2",
+    "jest": "^16.0.2",
+    "react": "^15.3.2"
+  }
+}
