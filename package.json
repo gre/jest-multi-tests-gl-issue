@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "gl": "^4.0.2",
-    "jest": "^16.0.2"
+    "jest": "^19.0.2"
   }
 }

@@ -7,4 +7,5 @@ test("foo", () => {
   var pixels = new Uint8Array(4);
   gl.readPixels(0, 0, 1, 1, gl.RGBA, gl.UNSIGNED_BYTE, pixels);
   expect(pixels).toEqual(new Uint8Array([ 255, 0, 0, 255 ]));
+  gl.getExtension("STACKGL_destroy_context").destroy();
 });
